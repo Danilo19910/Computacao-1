@@ -9,9 +9,9 @@ int main()
 
     media = (n1 + n2+ n3) / 3;
 
-    if  (media >= 8)
+    if  (media > 8)
         printf("Aprovado com Distinção");
-    else if (media >= 6 && media < 8)
+    else if (media >= 6 && media <= 8)
         printf("Aprovado Direto");
     else if (media >= 4 && media < 6)
         printf("Vai pra Final");
