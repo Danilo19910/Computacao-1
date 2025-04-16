@@ -2,7 +2,7 @@
 
 int main()
 {
-    int n = 0, x = 0, p = 0;
+    int n = 0, x = 0, q = 0;
     float m = 0;
 
     printf("Digite um número: ");
@@ -13,14 +13,14 @@ int main()
         if (n>0)
 
         {
-            p++;
+            q++;
             x = x + n;
         }
         printf("Digite um número: ");
         scanf("%d", &n);
     }
-    printf("Quantidade de números positivos: %d\n", p);
-    printf("A média dos valores positivos é: %.1f", m=x/p);
+    printf("Quantidade de números positivos: %d\n", q);
+    printf("A média dos valores positivos é: %.1f", m=x/q);
 
     return 0;
 
