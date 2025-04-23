@@ -27,8 +27,8 @@ int main()
     }
     else
     {
-        printf("Área da parede: %0.1f\n", Area);
-        printf("Quantidade de tinta necessária: %0.1f\n", Tinta);
+        printf("Área da parede: %0.1f metros\n", Area);
+        printf("Quantidade de tinta necessária: %0.1f litros\n", Tinta);
     }
 
     return 0;
