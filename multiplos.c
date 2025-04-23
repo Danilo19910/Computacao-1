@@ -2,7 +2,7 @@
 #include<stdio.h>
 
 int main() {
-    int numerobase, inicio, fim, soma, i;
+    int numerobase, inicio, fim, soma = 0, i;
 
     printf("Digite um número para calcular seus múltiplos: ");
     scanf("%d", &numerobase);
